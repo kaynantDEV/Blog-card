@@ -27,8 +27,8 @@ main{
     height: 400px;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
+    font-family:'Figtree', sans-serif;
     background-color: var(--White);
     padding: 20px;
     border: 1px solid var(--Black);
@@ -44,7 +44,41 @@ main{
     margin-top: 10%;
 }
 .main-text{
-    
+}
+.main-text h2{
+    width: 100px;
+    text-align: center;
+    font-size: 1em;
+    font-weight: 800;
+    background-color: var(--Yellow);
+    margin: 10px 0px;
+}
+.main-text p{
+    font-size: 0.8em;
+}
+.main-text h1{
+    font-size: 1.2em;
+    margin: 10px 0px;
+}
+
+.main-text p:last-child{
+    color: var(--Grey);
+}
+.main-perfil{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    justify-content: flex-start;
+    margin: 10px 0px;
+}
+
+.main-perfil img{
+    width: 30px;
+}
+.main-perfil p{
+    font-size: 0.8rem;
+    font-weight: 800;
+    margin: 10px 0px;
 }
 
 
@@ -62,5 +96,5 @@ main{
 
 
 
-.attribution { font-size: 11px; text-align: center; }
+.attribution { font-size: 11px; text-align: center; margin-top: 100px;}
 .attribution a { color: hsl(228, 45%, 44%); }
